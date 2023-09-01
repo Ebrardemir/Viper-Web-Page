@@ -1,0 +1,105 @@
+body{
+    background-image: url("aaa.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#başlık{
+    font-family:sans-serif;
+    color:rgb(3, 65, 32);
+    font-size:35px;
+    position: absolute;
+    top: 5px;
+    left: 145px; 
+}
+
+.box{
+    background-color: rgb(255, 255, 255, 0.45);	
+    border: 1px solid black;
+	padding: 10px;
+	width: 450px;
+	height: 390px;
+    position: relative;
+    top:100px;
+    left: 125px;
+    border-style:outset;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.box h1{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   color:rgb(3, 65, 32);
+   font-size: 40px;
+   font-weight:bolder;
+   text-align: center;
+   margin:5px;
+}
+
+.box p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-size:17px;
+    line-height: 1.2;
+    text-align:justify;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    font-variant-ligatures: common-ligatures;
+    font-weight: 500px;
+    position: absolute;
+    top: 180px;
+    left: 38px;
+}
+
+#yetenek{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    position: absolute;
+    top: 215px;
+    left: 38px;
+}
+
+#yetenek li {
+    padding-bottom: 5px;
+}
+
+#link{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    color: #040404;
+    text-decoration: none;
+    background-color: rgb(3, 65, 32);
+    padding: 10px;
+    border: 2px solid #136a59;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#link{
+    background-color:rgba(12, 67, 20, 0.45);
+    color: #040404;
+}
+
+#link:visited{
+    background-color:gray;
+}
+
+#link:hover {
+    background-color: rgba(255, 255, 255, 0.45);
+    border-color:rgba(255, 255, 255, 0.45);
+    border-color: #fff;
+}
+  
+#link:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
